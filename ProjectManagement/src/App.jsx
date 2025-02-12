@@ -1,4 +1,3 @@
-// import DashBoard from "./components/DashBoard";
 import { useState } from "react";
 import NewProject from "./components/NewProject";
 import NoProjectSelected from "./components/NoProjectSelected";
@@ -69,7 +68,6 @@ function App() {
         onSelectProject={handleSelectProject}
       />
       {content}
-      {/* <DashBoard /> */}
     </main>
   );
 }
